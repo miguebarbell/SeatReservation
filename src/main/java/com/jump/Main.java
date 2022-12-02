@@ -2,6 +2,8 @@ package com.jump;
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		Theater sherk = new Theater(5, 5);
+		sherk.displaySeats();
+		sherk.reservationDialog();
 	}
 }
